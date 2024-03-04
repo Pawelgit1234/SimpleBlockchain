@@ -30,12 +30,6 @@
     <ClCompile Include="src\blockchain\BlockChain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\network\Client.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\network\Server.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\utils\Hash.hpp">
@@ -50,22 +44,7 @@
     <ClInclude Include="src\blockchain\BlockChain.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\network\Client.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\network\Server.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\network\Message.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\settings.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="src\blockchain\BlockChainHeader.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\network\Network.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\utils\Utils.hpp">
