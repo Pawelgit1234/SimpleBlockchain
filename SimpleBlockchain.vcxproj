@@ -145,7 +145,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\blockchain\GenesisBlock.cpp" />
     <ClCompile Include="src\network\Server.cpp" />
     <ClCompile Include="src\network\Client.cpp" />
     <ClCompile Include="src\blockchain\BlockChain.cpp" />
@@ -155,9 +154,9 @@
     <ClCompile Include="src\utils\Logger.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\blockchain\GenesisBlock.hpp" />
-    <ClInclude Include="src\blockchain\VirtualBlock.hpp" />
+    <ClInclude Include="src\blockchain\BlockChainHeader.hpp" />
     <ClInclude Include="src\network\Message.hpp" />
+    <ClInclude Include="src\network\Network.hpp" />
     <ClInclude Include="src\network\Server.hpp" />
     <ClInclude Include="src\network\Client.hpp" />
     <ClInclude Include="src\blockchain\BlockChain.hpp" />
@@ -165,6 +164,7 @@
     <ClInclude Include="src\settings.hpp" />
     <ClInclude Include="src\utils\Hash.hpp" />
     <ClInclude Include="src\utils\Logger.hpp" />
+    <ClInclude Include="src\utils\Utils.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

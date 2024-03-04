@@ -4,16 +4,16 @@
 #include <ctime>
 
 #include "../utils/Utils.hpp"
-#include "VirtualBlock.hpp"
 
 namespace sb
 {
 	namespace blockchain
 	{
-		class Block : public VirtualBlock
+		class Block
 		{
 		public:
-			Block(unsigned int id, std::string previousHash, std::string data) noexcept;
+			Block(unsigned int id, const std::string& previousHash, const std::string& data) noexcept;
+			Block(unsigned int id) noexcept;
 
 			unsigned int getId() const noexcept { return id_; }
 			std::string getPreviousHash() const noexcept { return previousHash_; }
